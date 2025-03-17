@@ -94,7 +94,7 @@ Widget sectionTitle(String title) {
     padding: EdgeInsets.symmetric(vertical: 8),
     child: Text(
       title,
-      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
     ),
   );
 }
@@ -108,18 +108,14 @@ Widget customContainer(
   return Container(
     width: double.infinity,
     padding: EdgeInsets.all(12),
-    margin: EdgeInsets.symmetric(vertical: 4),
-    decoration: BoxDecoration(
-      color: Colors.lightBlue[100],
-      border: Border.all(color: borderColor, width: 2),
-      borderRadius: BorderRadius.circular(8),
-    ),
+    margin: EdgeInsets.symmetric(vertical: 2),
+    decoration: BoxDecoration(color: Colors.lightBlue[100]),
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
           title,
-          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+          style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
         ),
         Text(subtitle, style: TextStyle(fontSize: 14)),
       ],
@@ -139,7 +135,7 @@ class SecondScreen extends StatelessWidget {
           ),
         ),
         body: Padding(
-          padding: EdgeInsets.all(16),
+          padding: EdgeInsets.all(12),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [

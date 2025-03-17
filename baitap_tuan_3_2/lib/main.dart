@@ -64,8 +64,8 @@ class _SplashScreenState extends State<SplashScreen>
               opacity: _animation,
               child: Image.network(
                 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvpJnSeqHxgbHr4-wN_LGEyZier1L22_g_8R824-DEs2Tzxp16St-5LdEC7Twyn1uVv0s&usqp=CAU',
-                width: 150,
-                height: 150,
+                width: 103,
+                height: 70,
               ),
             ),
             SizedBox(height: 20),
@@ -74,7 +74,7 @@ class _SplashScreenState extends State<SplashScreen>
               child: Text(
                 "UTH SMART TASK",
                 style: TextStyle(
-                  fontSize: 32,
+                  fontSize: 30,
                   fontWeight: FontWeight.bold,
                   color: Colors.blue,
                 ),
@@ -131,7 +131,7 @@ class HomeScreen extends StatelessWidget {
                     Text(
                       "Easy Time Management",
                       style: TextStyle(
-                        fontSize: 32,
+                        fontSize: 16,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -141,10 +141,7 @@ class HomeScreen extends StatelessWidget {
                       child: Text(
                         "With management based on priority and daily tasks, it will give you convenience in managing and determining the tasks that must be done first.",
                         textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
+                        style: TextStyle(fontSize: 14),
                       ),
                     ),
                   ],
@@ -223,9 +220,9 @@ class Page1 extends StatelessWidget {
                     Image.asset('assets/chart.png'),
                     SizedBox(height: 20),
                     Text(
-                      "Easy Time Management",
+                      "Increase Work Effectiveness",
                       style: TextStyle(
-                        fontSize: 32,
+                        fontSize: 16,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -235,10 +232,7 @@ class Page1 extends StatelessWidget {
                       child: Text(
                         "Time management and the determination of more important tasks will give your job statistics better and always improve.",
                         textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
+                        style: TextStyle(fontSize: 14),
                       ),
                     ),
                   ],
@@ -339,7 +333,7 @@ class Page2 extends StatelessWidget {
                     Text(
                       "Reminder Notification",
                       style: TextStyle(
-                        fontSize: 32,
+                        fontSize: 16,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -349,10 +343,7 @@ class Page2 extends StatelessWidget {
                       child: Text(
                         "The advantage of this application is that it also provides reminders for you so you don't forget to keep doing your assignments well and according to the time you have set.",
                         textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
+                        style: TextStyle(fontSize: 14),
                       ),
                     ),
                   ],
